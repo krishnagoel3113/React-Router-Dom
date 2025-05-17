@@ -1,0 +1,28 @@
+nav{
+    background: #333;
+    padding: 10px;
+
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+
+}
+
+li{
+    display: inline;
+}
+a{
+    color: white;
+    text-decoration: none;
+
+}
+a.active{
+    font-weight: bold;
+    border-bottom: 2px solid white;
+}
