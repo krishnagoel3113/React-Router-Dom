@@ -1,0 +1,10 @@
+ <ul className='justify-between'>
+          {/* <li> <Logo /> </li> */}
+          <li><NavLink to='/' end ><Logo /></NavLink></li>
+          <ul className='gap-5'>
+            <li><NavLink to='/' end >Home</NavLink></li>
+            <li><NavLink to='/alltodos'>All Todos</NavLink></li>
+            <li><NavLink to='/create'>Create</NavLink></li>
+            <li><NavLink to='/feedback'>Feedback</NavLink></li>
+          </ul>
+        </ul>
