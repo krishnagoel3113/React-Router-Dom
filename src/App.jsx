@@ -7,12 +7,13 @@ import Feedback from './components/NavigationBar/Feedback/Feedback';
 import Footer from './components/FooterBar/Footer';
 import './App.css';
 import { TodoContext } from './components/TodoContext/TodoContext';
-
+import { useState } from 'react';
 function App() {
-  const val = 404;
-  const name ='krishna';
+  const[todos,setTodos] = useState([]);
+
+  
   return (
-    <TodoContext.Provider value={{val,name}}>
+    <TodoContext.Provider value={{todos,setTodos}}>
       <Router>
         <div className='box'>
           <Navbar />
