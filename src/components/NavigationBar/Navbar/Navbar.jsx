@@ -17,9 +17,12 @@ const Navbar = () => {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/alltodos/all" className={({ isActive }) => isActive ? 'active' : ''}>
+            <NavLink to="/alltodos"   className={({ isActive }) => isActive ? 'active' : ''}>
               All Todos
             </NavLink>
+            {/* <NavLink to="/alltodos/all"   className={({ isActive }) => isActive ? 'active' : ''}>
+              All Todos
+            </NavLink> */}
           </li>
           <li>
             <NavLink to="/create" className={({ isActive }) => isActive ? 'active' : ''}>

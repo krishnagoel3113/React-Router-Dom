@@ -2,7 +2,7 @@ import React from 'react'
 
 const Logo = () => {
   return (
-    <div className='text-white '>TODO-LIST</div>
+    <div className='text-white font-bold text-2xl  hover:underline '>TodoZen</div>
   )
 }
 

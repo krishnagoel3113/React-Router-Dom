@@ -2,10 +2,19 @@ import React from 'react'
 import './Feedback.css'
 const Feedback = () => {
   return (
-      <div className='feedbackContainer'>
-      <p>
-        THIS PAGE IS IN UNDER CONSTRUCTION
-      </p>
+    <div className='feedbackContainer'>
+      <div>
+        <p>This Page is Under Development</p>
+      </div>
+      <div class="honeycomb">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
     </div>
   )
 }
