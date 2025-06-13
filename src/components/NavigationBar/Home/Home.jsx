@@ -4,7 +4,7 @@ const Home = () => {
   return (
    <div className='homeContainer'>
       <p>
-        THIS PAGE IS IN UNDER CONSTRUCTION
+        THIS PAGE IS IN UNDER CONSTRUCTION! :(
       </p>
     </div>  
   )
